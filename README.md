@@ -87,7 +87,7 @@ llamafactory-cli export ../merge_qwen_lora.yaml
 ## MILE Benchmark 
 Multi-Stage Interactive Legal Evaluation (MILE) introduces an approach for assessing the model’s ability to complete designated legal tasks in a dynamic environment. Leveraging powerful LLM to simulate the non-legal characters (i.e., Client), MILE thoroughly evaluates the performance of LLMs driven lawyer within this dynamic legal interaction environment. MILE is divided into two phases: interaction evaluation and goal evaluation.
 
-Please see [evaluation]((https://github.com/FudanDISC/MASER/tree/main/src/evaluation)) for details about the evaluation datasets and evaluation scripts.
+Please see [evaluation](https://github.com/FudanDISC/MASER/tree/main/src/evaluation) for details about the evaluation datasets and evaluation scripts.
 
 
 ## Citation
