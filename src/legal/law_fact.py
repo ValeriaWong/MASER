@@ -73,14 +73,14 @@ class Law_Fact:
 
     @staticmethod
     def add_parser_args(parser: argparse.ArgumentParser):
-        parser.add_argument("--case_database", default="/attached/remote-home/thuang/new_AI_Law_main_2/vs_AI_Law_main/src/data/case_msf_train.json", type=str)
+        parser.add_argument("--case_database", default="/home/wangqun/code/MASER/src/data/legal.json", type=str)
         parser.add_argument("--plaintiff", default="Agent.Plaintiff.FactGPT", help="registry name of plaintiff agent")
         parser.add_argument("--lawyer", default="Agent.Lawyer.FactGPT", help="registry name of doctor agent")
         parser.add_argument("--supervisor", default="Agent.Supervisor.GPT", help="registry name of supervisor agent")
         parser.add_argument("--max_conversation_turn", default=15, type=int, help="max conversation turn between doctor and patient")
         parser.add_argument("--max_workers", default=10, type=int, help="max workers for parallel diagnosis")
         parser.add_argument("--delay_between_tasks", default=10, type=int, help="delay between tasks")
-        parser.add_argument("--save_path", default="/attached/remote-home/thuang/new_AI_Law_main_2/vs_AI_Law_main/src/outputs/dialog_history_iiyi/train_law_fact_gpt3.jsonl", help="save path for dialog history")
+        parser.add_argument("--save_path", default="/home/wangqun/code/MASER/src/outputs/dialog_history/train_law_fact_gpt3.jsonl", help="save path for dialog history")
         parser.add_argument("--ff_print", default=True, action="store_true", help="print dialog history")
         parser.add_argument("--parallel", default=False, action="store_true", help="parallel diagnosis")
 

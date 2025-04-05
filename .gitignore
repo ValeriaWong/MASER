@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+*$py.class
+src/engine/__pycache__/*.cpython-310.pyc
+src/engine/__pycache__/*.pyc
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.vscode/
+
+# PyTorch, Hugging Face, Transformers caches
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.npz
+
+# Tensorboard, logs
+runs/
+logs/
+events.out.tfevents.*
+
+# Model / tokenizer / config cache
+~/.cache/
+*.onnx
+
+# Output files
+# src/outputs/
+# *.jsonl
+*.log
+*.tmp
+*.output
+
+# Large data / intermediate case dumps
+# src/data/*.json
+# src/data/*.jsonl
+# src/data/*_cache/
+*.tar.gz
+*.zip
+*.7z
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Checkpoint folders
+# checkpoints/
+# models/
+# results/
+# experiments/
+
+# Ignore test files and coverage
+.coverage
+htmlcov/
+tests/__pycache__/
+test_output/

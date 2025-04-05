@@ -44,7 +44,7 @@ Before running the script, open `scripts/run.sh` and enter your API keys for the
 
 Execute the script with:
 ```
-bash scripts/run.sh
+bash scripts/run_fact.sh
 ```
 You can find the dialog history documents of LLMs featured  at [Dialog_History](src/outputs/dialog_history/). 
 

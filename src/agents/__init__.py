@@ -1,17 +1,17 @@
 from .base_agent import Agent
-from .doctor import (
-    Doctor, 
-    GPTDoctor, 
-    ChatGLMDoctor, 
-    MinimaxDoctor, 
-    WenXinDoctor, 
-    QwenDoctor, 
-    HuatuoGPTDoctor,
-    HFDoctor
-)
-from .patient import Patient
-from .reporter import Reporter, ReporterV2
-from .host import Host
+# from .doctor import (
+#     Doctor, 
+#     GPTDoctor, 
+#     ChatGLMDoctor, 
+#     MinimaxDoctor, 
+#     WenXinDoctor, 
+#     QwenDoctor, 
+#     HuatuoGPTDoctor,
+#     HFDoctor
+# )
+# from .patient import Patient
+# from .reporter import Reporter, ReporterV2
+# from .host import Host
 # _________________分割线______________________
 # _________________consult_____________________
 from .plaintiff_consult import Plaintiff_consult
@@ -70,18 +70,18 @@ from .judge import (
 )
 __all__ = [
     "Agent",
-    "Doctor",
-    "GPTDoctor",
-    "ChatGLMDoctor",
-    "MinimaxDoctor",
-    "WenXinDoctor",
-    "QwenDoctor",
-    "HuatuoGPTDoctor",
-    "HFDoctor",
-    "Patient",
-    "Reporter",
-    "ReporterV2",
-    "Host",
+    # "Doctor",
+    # "GPTDoctor",
+    # "ChatGLMDoctor",
+    # "MinimaxDoctor",
+    # "WenXinDoctor",
+    # "QwenDoctor",
+    # "HuatuoGPTDoctor",
+    # "HFDoctor",
+    # "Patient",
+    # "Reporter",
+    # "ReporterV2",
+    # "Host",
     "Plaintiff_consult",
     "Lawyer_consult",
     "HFLawyer_consult",
